@@ -1,0 +1,13 @@
+
+create table employeedemorgraphics 
+(employeeid int, 
+firstname varchar (50), 
+lastname varchar (50), 
+age int, 
+gender varchar(50))
+
+
+create table employeesalary 
+(employeeid int, 
+jobtitle varchar (50),
+salary int )
