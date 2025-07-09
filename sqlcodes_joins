@@ -1,0 +1,24 @@
+joining two tables using employee_id (inner join) --- if using inner join it will only show what is common and doesnot show what is not common. 
+
+select * 
+from SQL_practice.dbo.employeedemorgraphics 
+inner join SQL_practice.dbo.employeesalary 
+on employeedemorgraphics.employeeid = employeesalary.employeeid
+
+joining two tables using employee_id (full outer join) -- if using full outer join it will show all the data even if it is not same 
+select * 
+from SQL_practice.dbo.employeedemorgraphics 
+full outer join SQL_practice.dbo.employeesalary 
+on employeedemorgraphics.employeeid = employeesalary.employeeid
+
+joining two tables using employee_id (left outer join) -- only going to show the values of left side table which is employeedemographics and have null in the values that are in the right side
+select * 
+from SQL_practice.dbo.employeedemorgraphics 
+left outer join SQL_practice.dbo.employeesalary 
+on employeedemorgraphics.employeeid = employeesalary.employeeid
+
+joining two tables using employee_id (right outer join) --
+select * 
+from SQL_practice.dbo.employeedemorgraphics 
+right outer join SQL_practice.dbo.employeesalary 
+on employeedemorgraphics.employeeid = employeesalary.employeeid
