@@ -1,0 +1,15 @@
+inserting values in table employeedemographics 
+  
+insert into dbo.employeedemorgraphics values 
+(1001,'Jim', 'Halpert', 30, 'Male'), 
+(1004, 'Jake', 'Garden', 34, 'Male'), 
+(1005, 'Karma', 'Ghale', 26, 'Female')
+
+inserting vlaues in table employeesalary 
+
+insert into dbo.employeesalary values
+(1001, 'Salesman', 45000), 
+(1002, 'Receptionist', 34000), 
+(1003, 'Accountant', 65000), 
+(1004, 'Regional Manager', 65000), 
+(1005, 'HR', 50000)
